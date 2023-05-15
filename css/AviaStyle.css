@@ -1,0 +1,322 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Montserrat", "Roboto", sans-serif;
+    font-size: 16px;
+  }
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style: none;
+  }
+  .header {
+    padding-top: 17px;
+    background: #f0f0f0;
+  }
+  .container {
+    width: 100%;
+    max-width: 1180px;
+    padding-left: 15x;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .header__inner {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .header-logo {
+    width: 25%;
+    cursor: pointer;
+  }
+  .header-logo a {
+    cursor: pointer;
+  }
+  .header__navigation {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+  }
+  .header__social {
+    display: flex;
+    justify-content: right;
+  }
+  .header__social > ul > li {
+    display: inline-block;
+  }
+  .header__social .number {
+    padding-right: 50px;
+    font-size: 1.5em;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+  }
+  .header__social img {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+  }
+  .header__menu {
+    display: flex;
+    justify-content: right;
+    margin-top: 30px;
+  }
+  .header__menu ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header__menu > ul > li {
+    display: inline-block;
+    font-size: 1.18em;
+    font-weight: 600;
+  }
+  
+  .header-bottom {
+    background: url("../img/header_002_avia.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 730px;
+  }
+  .header-bottom__line {
+    background: rgb(22, 113, 178, 0.6);
+    height: 50px;
+    width: 100%;
+  }
+  .header-bottom__nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18px;
+  }
+  .header-bottom__nav ul li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    font-family: "Roboto";
+    font-weight: 700;
+  }
+  .header-bottom__title {
+    margin-top: 490px;
+    color: #fff;
+    font-size: 3.75em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 175px;
+  }
+  .header-bottom__box {
+    margin-top: 315px;
+    width: 100%;
+    background: rgb(102, 203, 196, 0.6);
+    color: #fff;
+    padding: 40px 0 65px 75px;
+    font-weight: 700;
+    position: relative;
+  }
+  .box-top {
+    font-size: 2.25em;
+  }
+  .box-bottom {
+    font-size: 1.5em;
+  }
+  .box-bottom:before {
+    content: "";
+    position: absolute;
+    left: 7%;
+    margin: 0 auto;
+    background: #fff;
+    width: 30%;
+    height: 3px;
+    margin-top: 50px;
+  }
+  .avia-content {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .avia-content__inner {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-size: 1.25em;
+    font-weight: 500;
+    margin-bottom: 50px;
+  }
+  .avia-content__inner img {
+    margin-left: 100px;
+  }
+  .avia-text p{
+    margin-bottom: 55px;
+    font-size: 1.25em;
+    font-weight: 500;
+  }
+  .avia-content__innerTwo {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-size: 1.25em;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .avia-content__innerTwo img  {
+    margin-right: 100px;
+  }
+  .causes {
+    background: #427799;
+    background-image: url("../img/items-icon/bg-items.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .causes-list {
+    max-width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 85px;
+  }
+  .causes-box {
+    text-align: center;
+    color: #fff;
+    max-width: 265px;
+    padding-bottom: 90px;
+  }
+  .causes-box p {
+    font-weight: 500;
+    font-size: 1.0625.em;
+  }
+  .causes-box h3 {
+    padding-top: 35px;
+    padding-bottom: 25px;
+    text-transform: uppercase;
+  }
+  .causes-img {
+    border-radius: 50%;
+    background: #00afa5;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .drop-arrow {
+    margin-left: 29px;
+  }
+  .offer {
+    background: #1f8ed9;
+    color: #fff;
+  }
+  .offer-title {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 590px;
+    position: relative;
+  }
+  .offer-title:before {
+    content: "";
+    position: absolute;
+    left: 37%;
+    top: 15%;
+    margin: 0 auto;
+    background: #fff;
+    width: 25%;
+    height: 3px;
+    margin-top: 25px;
+  }
+  .offer-title h2 {
+    font-size: 1.875em;
+  }
+  .offer-title h3 {
+    margin-top: 80px;
+    font-size: 1.375em;
+    font-weight: 600;
+  }
+  .offer-title span {
+    font-weight: normal;
+  }
+  .footer {
+  background-color: #f0f6f9;
+  }
+  .address {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 85px;
+  }
+  .address-logo {
+    width: 180px;
+    text-align: right;
+    margin-right: 75px;
+  }
+  .address-logo img {
+    margin-bottom: 20px;
+  }
+  .address-logo p {
+    font-size: 0.75em;
+    font-weight: 500;
+  }
+  .address-social img {
+    width: 30px;
+    height: 30px;
+  }
+  .address-map > a {
+    display: flex;
+    align-items: center;
+    color: #04649a;
+  }
+  .address-map > a > img {
+    margin-right: 20px;
+  }
+  .address-social {
+    display: flex;
+    justify-content: space-between;
+  }
+  .address-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+  }
+  
+  .address-social-icons {
+    display: flex;
+    align-items: center;
+    color: #00a1a2;
+  }
+  .address-social-icons p {
+    margin-right: 25px;
+  }
+  .address-social-icons a {
+    margin-left: 5px;
+  }
+  .address-item {
+    border-left: 2px solid #989ead;
+    padding-left: 20px;
+  }
+  .address-item p {
+    margin-bottom: 20px;
+    font-size: 0.875em;
+  }
+  .footer-line hr {
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: #9298a8;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .footer-line p {
+    text-align: right;
+    color: #9298a8;
+    font-size: 1.125em;
+  }
+  .footer-line {
+    padding-bottom: 50px;
+  }
+  
+  
+ 
